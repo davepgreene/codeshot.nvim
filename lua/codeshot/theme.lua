@@ -12,8 +12,8 @@ function theme._gen_hl(hl)
   end
 
   return {
-    bg = hl.background and string.format('#%06x', hl.background) or '',
-    fg = hl.foreground and string.format('#%06x', hl.foreground) or '',
+    bg = hl.bg and string.format('#%06x', hl.bg) or '',
+    fg = hl.fg and string.format('#%06x', hl.fg) or '',
     style = style,
   }
 end
